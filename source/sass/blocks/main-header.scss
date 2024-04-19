@@ -1,0 +1,48 @@
+.main-header {
+  background-color: $additional;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.main-header__inner {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  background-color: $additional;
+  align-items: center;
+}
+
+.main-header__button-open-menu {
+
+}
+
+.main-header__block-logo {
+}
+
+.main-header__logo {
+  color: $color-white;
+  width: 142px;
+  height: 42px;
+  display: block;
+}
+
+.main-header__logo svg {
+  width: 100%;
+  height: 100%;
+}
+
+.main-header__nav {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  translate: 0 90%;
+}
+
+.main-header__phone {
+
+
+}

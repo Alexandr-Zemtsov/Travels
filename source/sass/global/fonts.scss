@@ -1,0 +1,14 @@
+@include font-face("Montserrat", url("../../fonts/Montserrat-Light.ttf"), normal, 300);
+@include font-face("Montserrat", url("../../fonts/Montserrat-Regular.ttf"), normal, 400);
+@include font-face("Montserrat", url("../../fonts/Montserrat-Medium.ttf"), normal, 500);
+@include font-face("Montserrat", url("../../fonts/Montserrat-SemiBold.ttf"), normal, 600);
+@include font-face("Montserrat", url("../../fonts/Montserrat-Bold.ttf"), normal, 700);
+@include font-face("Montserrat", url("../../fonts/Montserrat-ExtraBold.ttf"), normal, 800);
+
+// @font-face {
+//   font-family: "Montserrat";
+//   src: url("../../fonts/Montserrat-Light.ttf") format("ttf");
+//   font-style: normal;
+//   font-weight: 300;
+//   font-display: swap;
+// }

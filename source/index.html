@@ -1,31 +1,77 @@
 <!DOCTYPE html>
 <html lang="ru" data-validate="html">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SUPERGYM</title>
-    <link rel="stylesheet" href="sass/style.scss">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LIFETOUR</title>
+  <link rel="stylesheet" href="sass/style.scss">
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicons/180.png">
+  <link rel="manifest" href="manifest.webmanifest">
+</head>
 
-  <body class="page-body">
-    <!-- пример использования спрайта -->
-    <img src="/__spritemap#sprite-logo-view" alt="Это спрайт">
-    <svg>
-      <use href="/__spritemap#sprite-user"></use>
-    </svg>
-    <!-- примеры требуемых атрибутов data-test="*" -->
-    <div data-test="header">header</div>
-    <div data-test="hero">hero</div>
-    <div data-test="tours">tours</div>
-    <div data-test="training">training</div>
-    <div data-test="about">about</div>
-    <div data-test="reviews">reviews</div>
-    <div data-test="adv">adv</div>
-    <div data-test="gallery">gallery</div>
-    <div data-test="form">form</div>
-    <div data-test="footer">footer</div>
-    <script type="module" src="js/main.js"></script>
-  </body>
+<body class="page-body">
+
+  <header class="main-header" data-test="header">
+      <div class="main-header__inner container">
+        <button class="main-header__button-open-menu" type="button">
+          <span class="visually-hidden">Кнопка открытия меню</span>
+        </button>
+        <div class="main-header__block-logo">
+          <a class="main-header__logo link" href="#">
+            <span class="visually-hidden">Логотип компании Лайфтур</span>
+            <svg>
+              <use href="/__spritemap#sprite-logo-lifetour"></use>
+            </svg>
+          </a>
+        </div>
+        <nav class="main-header__nav header-menu">
+          <ul class="header-menu__list list">
+            <li class="header-menu__item">
+              <a class="header-menu__link link" href="#">Туры</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header-menu__link link" href="#">Обучение</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header-menu__link link" href="#">О нас</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header-menu__link link" href="#">Отзывы</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header-menu__link link" href="#">Фотографии</a>
+            </li>
+            <li class="header-menu__item">
+              <a class="header-menu__link link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="main-header__phone link" href="tel:+78005555555" aria-label="Номер телефона компании  Лайфтур">8 800 000-00-00</a>
+      </div>
+  </header>
+  <main class="page-main">
+    <h1>Пиздатый заголовок</h1>
+  </main>
+  <!-- пример использования спрайта -->
+  <!-- <img src="/__spritemap#sprite-logo-view" alt="Это спрайт">
+  <svg>
+    <use href="/__spritemap#sprite-user"></use>
+  </svg> -->
+  <!-- примеры требуемых атрибутов data-test="*" -->
+
+  <!-- <div data-test="hero">hero</div>
+  <div data-test="tours">tours</div>
+  <div data-test="training">training</div>
+  <div data-test="about">about</div>
+  <div data-test="reviews">reviews</div>
+  <div data-test="adv">adv</div>
+  <div data-test="gallery">gallery</div>
+  <div data-test="form">form</div>
+  <div data-test="footer">footer</div> -->
+  <script type="module" src="js/main.js"></script>
+</body>
 
 </html>
